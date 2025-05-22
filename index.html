@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matheus Vargas | Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Matheus Vargas</h1>
+        <p class="subtitulo">Estudante de ADS | Apaixonado por Tecnologia</p>
+        <nav>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="sobre" class="section">
+        <div class="container">
+          <div class="perfil-container">
+            <img src="Foto.png" alt="Matheus Vargas" class="perfil-img" />
+            <div class="perfil-info">
+              <p id="saudacao" class="saudacao"></p>
+              <p class="descricao">
+                Eu sou Matheus, estudo Análise e Desenvolvimento de Sistemas na
+                UNINTER e adoro explorar o mundo da tecnologia!
+              </p>
+              <div class="educacao">
+                <h3><i class="fas fa-graduation-cap"></i> Formação</h3>
+                <p>Análise e Desenvolvimento de Sistemas - UNINTER</p>
+                        <ul class="skills-list">
+                            <li><i class="fab fa-html5"></i> HTML5</li>
+                            <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                            <li><i class="fab fa-js"></i> JavaScript</li>
+
+                        </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hobbies" class="section hobbies-section">
+        <div class="container">
+          <h2>Meus Hobbies</h2>
+          <div class="hobbies-grid">
+            <div class="hobby-card">
+              <i class="fas fa-code"></i>
+              <h3>Codificação</h3>
+              <p>Desenvolvimento web e exploração de novas tecnologias</p>
+            </div>
+            <div class="hobby-card">
+              <i class="fas fa-book"></i>
+              <h3>Leitura</h3>
+              <p>Livros técnicos e ficção científica</p>
+            </div>
+            <div class="hobby-card">
+              <i class="fas fa-dumbbell"></i>
+              <h3>Exercícios Físicos</h3>
+              <p>Atividades ao ar livre e musculação</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="section contact-section">
+        <div class="container">
+          <h2>Conecte-se Comigo</h2>
+          <div class="social-links">
+            <a
+              href="https://www.instagram.com/matheus__vf"
+              target="_blank"
+              class="instagram"
+            >
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://github.com/CraseChron" class="github">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+          <form id="contact-form" class="contact-form">
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+      </div>
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>Feito com <i class="fas fa-heart"></i> por Matheus Vargas</p>
+        <p class="copyright">© 2025 Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
